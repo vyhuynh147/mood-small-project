@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fbfbfb;
+    background-color: #9fc6ce;
     text-align: center;
     padding: 50px;
     color: #48738e;
@@ -12,27 +12,22 @@ h1 {
 }
 
 .mood {
-    background-color: white;
+    background-color: rgb(103, 130, 138);
     width: 110px;
     padding: 15px;
-    border: 2px solid #d8c9f5;
+    border: 2px solid #3d5357;
     border-radius: 15px;
     text-decoration: none;
-    color: #53838d;
+    color: #0c1d20;
 } 
 
 
 .moods {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
     gap: 15px;
     max-width: 500px;
     margin: 35px auto;
-}
-
-.mood span {
-    font-size: 20px;
 }
 
 
@@ -43,6 +38,10 @@ h1 {
     padding: 25px;
     border-radius: 15px;
     text-align: left;
+}
+
+.mood span {
+    font-size: 20px;
 }
 
 .journal h2 {
